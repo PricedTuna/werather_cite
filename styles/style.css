@@ -35,6 +35,7 @@ body {
 #card {
     width: 50%; 
     min-height: 20rem; 
+    border: solid 1px rgb(168, 168, 168);
     background-color: whitesmoke;
 }
 

@@ -1,0 +1,50 @@
+@keyframes cold {
+    to {background-color: aqua;}
+}
+
+@keyframes fresh {
+    from {}
+    to {background-color: rgb(169, 235, 235);}
+}
+
+@keyframes hot {
+    to {background-color: rgb(235, 235, 169);}
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: skyblue;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+#form_container {
+    border: solid 2px rgb(168, 168, 168);
+    width: 50%; 
+    background-color: whitesmoke;
+}
+
+.form_child {
+    border: solid 1px rgb(168, 168, 168);
+}
+
+#card {
+    width: 50%; 
+    min-height: 20rem; 
+    background-color: whitesmoke;
+}
+
+@media (max-width: 800px) {
+    #form_container {
+        width: 90%;
+    }
+    
+    #card {
+        width: 90%;
+        min-height: 15rem;
+    }
+}
